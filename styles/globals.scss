@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+// @import "bootstrap/scss/bootstrap";
+
+//login/registration page background
+@import './partials/dashboard.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@500&display=swap');
+
+.font_family {
+  font-family: 'Poppins', sans-serif;
+}
+
+.scene {
+  transform: perspective(1000px) rotateY(-30deg);
+}
